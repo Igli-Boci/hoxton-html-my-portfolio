@@ -7,6 +7,9 @@
 .top {
     background-color: #fc7a60;
     padding: 1rem;
+    display: grid;
+    align-content: space-between;
+    height: 100vh;
 }
 
 .top header {
@@ -33,6 +36,16 @@
 
 .box {
     background-color: #35382e;
+    color: white;
+    width: 70vw;
+    max-width: 500px;
+    justify-self: center;
+    border-radius: 2px;
+    padding: 1rem;
+}
+
+.expand {
+    text-align: center;
     color: white;
 }
 
