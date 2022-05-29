@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 .top {
@@ -42,6 +43,13 @@
     justify-self: center;
     border-radius: 2px;
     padding: 1rem;
+    display: grid;
+    gap: 0.7rem;
+}
+
+.box-title {
+    text-align: center;
+    color: #face00;
 }
 
 .expand {
